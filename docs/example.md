@@ -2,7 +2,7 @@ Ingest
 ```
 curl -X POST localhost:8080/ingest \
   -H 'content-type: application/json' \
-  -d '{"doc_id":"readme","paths":["./docs/README.md"]}'
+  -d '{"doc_id":"readme","paths":["./docs/test.md"]}'
 ```
 
 Ask
